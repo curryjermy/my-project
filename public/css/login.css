@@ -1,0 +1,76 @@
+/* Set the body styling for background and centering the form */
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../images/widegrain.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+  }
+  #logintitle {
+    font-weight: 900;
+  }
+
+.text-danger {
+  color: red;
+}
+
+  
+  /* Styling for the form container */
+  #registrationForm {
+    background-color: rgba(255, 255, 255, 0.8); /* Slight transparency */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 500px; /* Ensures it doesn't shrink too much */
+    min-width: 320px; /* Prevents the form from becoming too small */
+  }
+  
+  /* Form element styling */
+  .form-group label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .form-control {
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+  }
+  
+  /* Login button styling */
+  .login-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .login-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Signup link styling */
+  a {
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+    color: #337ab7;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
